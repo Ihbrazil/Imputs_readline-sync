@@ -12,7 +12,7 @@ if (valorDevido > 0) {
        if (diasAtraso > 15) {
             taxaJuros = 10;
         }
-        else { //<= 15
+        else {
             taxaJuros = 5;
         }
         
@@ -24,12 +24,12 @@ if (valorDevido > 0) {
         console.log("Taxa de Juros: " + taxaJuros + "%");
         console.log("Valor total com juros: R$ " + valorTotal + "\n");
     }
-    else  {//if (diasAtraso = 0) {
-        //taxaJuros = 0;
+    else  {
+        
         console.log("Você está em dia\n");
     
     }
 }
-else {//if (valorDevido = 0)
+else {
     console.log("O valor da dívida deve ser maior que zero!");
 }
